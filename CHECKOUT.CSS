@@ -1,0 +1,498 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "Mukta", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";    
+    box-sizing: border-box;
+}
+
+
+/* start nav 1 */
+.nav1 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 66px;
+    box-shadow: 0px 1px 1px rgb(240, 239, 239);
+    padding: 10px;
+    padding-top: 40px;
+    padding-bottom: 60px ;
+    border: 1px double rgba(0, 0, 0, 0.366);
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar{
+    width: fit-content;
+}
+
+::-webkit-scrollbar-thumb{
+    background-color:#BFB9FA;
+}
+
+.nav-middle{
+    margin-right: 40px;
+}
+
+.nav-middle:hover{
+    color:antiquewhite;
+    background-color: #7971ea;
+    transition: ease 0.5s;
+}
+
+.nav1 h1{
+    padding: 9px 9px;
+    border: 1px double rgba(0, 0, 0, 0.366);
+}
+
+.nav-left {
+    display: flex;
+    align-items: flex-end;
+    margin-right: 260px;
+}
+
+
+.search {
+    position: relative;
+}
+
+.search .fa-magnifying-glass {
+    color: rgb(164, 167, 172);
+    position: absolute;
+    font-size: 15px;
+    left: 15px;
+    top: 9px;
+}
+
+.search input {
+    border: none;
+    align-items: center;
+    margin-left: 8px;
+    background-color: white;
+    color: grey;
+    padding: 7px 16px 9px 36px;
+    font-size: 15px;
+    border-bottom: 1px black double;
+    
+}
+
+.search input:focus {
+    outline: none;
+}
+
+.nav-right {
+    display: flex;
+    justify-content: space-around;
+    margin-left: 260px;
+}
+
+.nav-right a {
+    text-decoration: none;
+    color: grey;
+    font-size: 20px;
+    margin: 0px 2px;
+    padding: 1px 10px;
+    transition-duration: 0.1s;
+    transition-delay: 0.2s;
+
+}
+
+.nav-right a:hover {
+    transform: scale(1.1);
+    transition: all .2s ease;
+}
+
+/* end nav 1 */
+
+/* start nav 2 */
+.nav2 {
+    display: flex;
+    justify-content: center;
+    margin: 50px;
+    margin-left: 100px;
+
+}
+
+
+
+div a {
+    display: flex;
+    color: black;
+    margin: 0px 20px;
+    text-decoration: none;
+}
+
+div a:hover {
+    color: rgb(197, 31, 197);
+}
+
+
+.section2{
+    display: flex;
+    background-color:#F0F0F0;
+    padding: 20px;
+    margin-bottom: 80px;
+}
+
+.section2 p{
+    margin-right: 10px;
+    position: relative;
+    left: 70px;
+}
+
+.word1{
+    color: blueviolet;
+}
+
+/* end nav 2 */
+
+
+.section4{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 100px;
+}
+
+.form1{
+    border: 1px solid gray;
+    padding: 50px;
+    position: relative;
+    left: 30px;
+    border: 1px solid lightgray;
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.373),0px 0px 1px 0px rgba(0, 0, 0, 0.373);
+
+    border-radius: 4px
+}
+.form1 textarea {
+    padding: 10px;
+}
+
+.form2{
+    border: 1px solid gray ;
+    padding: 50px;
+    padding-right: 260px;
+    position: relative;
+    right: 30px;
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.373),0px 0px 1px 0px rgba(0, 0, 0, 0.373);
+
+}
+
+.form3{
+    border: 1px solid gray;
+    padding: 50px;
+    position: relative;
+    right: 30px;
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.373),0px 0px 1px 0px rgba(0, 0, 0, 0.373);
+    height: 575px;
+}
+
+.upper{
+    display: flex;
+    justify-content: space-around;
+}
+
+label{
+    position: relative;
+}
+
+input{
+    position: relative;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    height: 30px;
+    border: 1px solid lightgray;
+    border-radius: 4px
+}
+
+.label1{
+    bottom: 15px
+}
+
+select{
+    position: relative;
+    bottom: 10px;
+    height: 30px;
+    width: 455px;
+    border: 1px solid lightgray;
+    border-radius: 4px
+}
+
+.label3{
+    left: 162.5px;
+}
+
+.input1{
+    width: 215px;
+}
+
+.input2{
+    margin-left: 15px;
+    width: 215px;
+}
+
+.label7{
+    left: 137.5px;
+}
+
+.input6{
+    width: 215px;
+}
+
+.input7{
+    margin-left: 15px;
+    width: 215px;
+}
+
+.label9{
+    left: 140.5px;
+}
+
+.input8{
+    width: 215px;
+}
+
+.input9{
+    margin-left: 15px;
+    width: 215px;
+}
+
+span{
+    position: relative;
+    bottom: 10px;
+}
+
+.label10{
+    bottom: 10px;
+}
+
+.big_Input{
+    width: 452.5px;
+}
+
+.label11{
+    bottom: 5px;
+}
+
+.form2{
+    border: 1px solid lightgray;
+    border-radius: 4px
+}
+
+.form2 input{
+    width: 240px;
+    height: 32px;
+    position: relative;
+    border: 1px solid lightgray;
+    border-radius: 4px;
+}
+
+.form2 button{
+    height: 34px;
+    width: 80px;
+    position: absolute;
+    right: 198px;
+    bottom: 60px;
+    color: white;
+    background-color: blueviolet;
+    border: none;
+    border-radius: 4px;
+    font-weight: bold;
+    letter-spacing: .2em;
+}
+.apply :hover {
+    transform: translate(-10px, 0px);
+    transition: all .4s ease;
+    box-shadow: 0px 0px 5px 0px  blueviolet ,0px 0px 1px 0px blueviolet ;
+    border-radius: 15px;
+}
+
+
+
+
+.form2 ::placeholder{
+    position: absolute;
+    left: 10px;
+    top: 8px;
+}
+
+.form3{
+    border: 1px solid lightgray;
+    border-radius: 4px
+}
+
+ul{
+    list-style-type: none;
+}
+
+li{
+    margin-bottom: 25px;
+}
+
+.left_ul{
+    position: relative;
+    right: 85px;
+}
+
+.right_ul{
+    position: relative;
+    left: px;
+}
+
+.button2{
+    margin-bottom: 10px;
+    height: 40px;
+    width: 420px;
+    color: blueviolet;
+    background-color: white;
+    border: 1px solid lightgray;
+    border-radius: 4px;
+    text-align: left
+}
+
+.button2:hover{
+    color: white;
+    background-color: #7971ea;
+    transition: all 0.4s;
+}
+
+.word2{
+    left: 20px;
+    bottom: 2px;
+}
+
+.button5{
+    margin-left: -20px;
+}
+
+.button5 a{
+    height: 40px;
+    width: 420px;
+    font-weight: bold; 
+    text-decoration: none;
+    padding: 8px 0px;
+    justify-content: center;
+    background-color: blueviolet;
+    color: white;
+    border-radius: 50px;
+    text-decoration: none;
+    letter-spacing: .2em;
+}
+
+.button5 :hover{
+
+    transform: translate(0px, 6px);
+    transition: all .4s ease;
+    box-shadow: 0px 0px 5px 0px  rgba(0, 0, 0, 0.334) ,0px 0px 1px 0px rgba(15, 15, 15, 0.321) ;
+    border: blueviolet 1px double ;
+    border-radius: 20px;
+    color: white;
+
+
+}
+
+.h_1{
+    position: relative;
+    left: 29px;
+}
+
+.h_2{
+    position: relative;
+    right: 30px;
+}
+
+.h_3{
+    position: relative;
+    right: 33px;
+}
+
+/* end form */
+
+
+/* footer */
+footer {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 90px;
+}
+
+li {
+    list-style: none;
+    line-height: 20px;
+    font-size: 12px;
+
+}
+
+.dec {
+    text-decoration: none;
+    color: black;
+}
+
+h4 {
+    color: rgb(197, 31, 197);
+}
+
+ul i {
+    font-size: 15px;
+    color: rgb(197, 31, 197);
+}
+.hh3{
+    margin: 10px;
+    margin-left: 0px;
+}
+
+.sendbtn{
+    z-index: 100;
+    border: #7971ea 1px solid;
+    background-color: #7971ea;
+    font-weight: bold;
+    position: absolute;
+    border-radius: 10px;
+    padding: 12px;
+    right: 152px;
+    color: white;
+    align-items: center;
+    margin-top: 10px;
+    letter-spacing: .2em;
+}
+.Subscribe  .sendbtn:hover{
+    background-color: rgba(0, 0, 255, 0.62);
+    transform: scale(1.1);
+    transition: all .3s ease;
+    box-shadow: 0px 2px 12px 2px rgba(0, 0, 0, 0.373),0px 0px 5px 0px rgba(0, 0, 0, 0.373);
+}
+
+.Subscribe input{
+    position: relative;
+    border: #00000060 1px solid;
+    background-color: rgb(255, 255, 255);
+    width: 200px;
+    height: 40px;
+    border-radius: 10px;
+    padding: 23px;
+    padding-left: 9px;
+    font-size: 15px;
+}
+
+.copy {
+    font-size: 12px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: rgb(34, 34, 34);
+    margin: 28px;
+}
+
+.p {
+    color: rgb(197, 31, 197);
+    padding-left: 10px;
+}
+
+
+
+footer img {
+    border-radius: 6px;
+}
+
+

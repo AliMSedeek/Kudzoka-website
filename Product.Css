@@ -1,0 +1,390 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Mukta", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";    
+}
+
+/* start nav 1 */
+.nav1 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 66px;
+    box-shadow: 0px 1px 1px rgb(240, 239, 239);
+    padding: 10px;
+    padding-top: 40px;
+    padding-bottom: 60px ;
+    border: 1px double rgba(0, 0, 0, 0.366);
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar{
+    width: fit-content;
+}
+
+::-webkit-scrollbar-thumb{
+    background-color:#BFB9FA;
+}
+
+.nav-middle{
+    margin-right: 40px;
+}
+
+.nav-middle:hover{
+    color:antiquewhite;
+    background-color: #7971ea;
+    transition: ease 0.5s;
+}
+
+.nav1 h1{
+    padding: 9px 9px;
+    border: 1px double rgba(0, 0, 0, 0.366);
+}
+
+.nav-left {
+    display: flex;
+    align-items: flex-end;
+    margin-right: 260px;
+}
+
+
+.search {
+    position: relative;
+}
+
+.search .fa-magnifying-glass {
+    color: rgb(164, 167, 172);
+    position: absolute;
+    font-size: 15px;
+    left: 15px;
+    top: 9px;
+}
+
+.search input {
+    border: none;
+    align-items: center;
+    margin-left: 8px;
+    background-color: white;
+    color: grey;
+    padding: 7px 16px 9px 36px;
+    font-size: 15px;
+    border-bottom: 1px black double;
+    
+}
+
+.search input:focus {
+    outline: none;
+}
+
+.nav-right {
+    display: flex;
+    justify-content: space-around;
+    margin-left: 260px;
+}
+
+.nav-right a {
+    text-decoration: none;
+    color: grey;
+    font-size: 20px;
+    margin: 0px 2px;
+    padding: 1px 10px;
+    transition-duration: 0.1s;
+    transition-delay: 0.2s;
+
+}
+
+.nav-right a:hover {
+    transform: scale(1.1);
+    transition: all .2s ease;
+}
+/* end nav 1 */
+
+/* start nav 2 */
+.nav2 {
+    display: flex;
+    justify-content: center;
+    margin: 50px;
+    margin-left: 100px;
+
+}
+.section2{
+    display: flex;
+    background-color:#F0F0F0;
+    padding: 20px;
+    
+    
+}
+
+.section2 p{
+    margin-right: 10px;
+    position: relative;
+    left: 70px;
+}
+
+.word1{
+    color: blueviolet;
+}  
+
+
+div a {
+    display: flex;
+    color: black;
+    margin: 0px 20px;
+    text-decoration: none;
+}
+
+div a:hover {
+    color: rgb(197, 31, 197);
+}
+
+.asideNav{
+    position: relative;
+    left: 1150px;
+}
+
+.besideSelect{
+    position: relative;
+    bottom: 40px;
+    right: 70px;
+    color:#7971ea;
+}
+
+#Selectitems{
+    position: relative;
+    bottom: 60px;
+    left: 70px;
+    width: 60px;
+    height: 25px;
+    color: rgb(0, 0, 0);
+    border: double black 1px;
+    border-radius: 5px;
+}
+/* end nav 2 */
+
+
+/* middle section */
+
+.middle2{
+    display: flex;
+    justify-content: space-around;
+    background-color: white;
+    margin-top: 50px;
+    padding: 20px 50px;
+    line-height: 1.7;
+}
+
+.text{
+    width: 600px ;
+}
+
+.middle2 img{
+   margin: 10px 30px ;
+   width: 600px;
+   border-radius: 5px;
+   box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.373),0px 0px 1px 0px rgba(0, 0, 0, 0.373);
+}
+.middle2-img :hover{
+    transform: scale(1.1);
+    transition: all .7s ease;
+}
+
+
+.text h1{
+    font-size: 0px;
+    margin: 20px 5px;
+}
+.middle2 p{
+    font-size: 16px;
+    margin: 20px 5px;
+    flex-wrap: nowrap;
+    color: rgba(0, 0, 0, 0.522);
+}
+.middle2 h3{
+    font-size: 20px;
+    margin: 20px 5px;
+    color: #7971ea;
+}
+.text label{
+    font-size: 13px;
+    padding: 5px;
+    margin-left: 10px;
+    font-weight: bold;
+}
+.num{
+    margin: 20PX 16PX ;
+    padding: 5px 10px;
+    background-color: #00000000;
+    color: rgb(0, 0, 0);
+    border: double black 1px;
+    border-radius: 5px;
+    position: relative;
+    top: 20px;
+}
+
+.CART{
+    position: relative;
+    left: 200px;
+    bottom: 35px;
+}
+
+.CART a{
+    width: 150px;
+    padding: 8px 0px;
+    justify-content: center;
+    background-color: #7971ea;
+    color: white;
+    border: #7971ea 1px solid;
+    border-radius: 50px;
+    margin-left: 28px;
+    text-decoration: none;
+}
+
+.CART :hover{
+
+    transform: scale(1.1);
+    transition: all .4s ease;
+    color: white;
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.373),0px 0px 1px 0px rgba(0, 0, 0, 0.373);
+
+
+}
+
+
+.item{
+    display: flex;
+    justify-content: space-around;
+    background-color:aliceblue;
+    margin-top: 50px;
+    padding: 20px 50px;
+    line-height: 1.7;
+    text-align: center;
+    color: rgb(54, 52, 148);
+    font-size: 30px;
+}
+
+.item img{
+    /* margin: 10px 30px ; */
+    width: 400px;
+    height: 300px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.373),0px 0px 1px 0px rgba(0, 0, 0, 0.373);
+}
+
+.item img :hover{
+     transform: scale(1.1);
+     transition: all .7s ease;
+}
+
+.addToCart{
+    position: relative;
+    left: 750px;
+    bottom: 180px;
+}
+
+.addToCart #choose1{
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+
+/* end middle section */
+
+
+/* footer */
+
+hr{
+    position: relative;
+
+}
+
+footer {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+
+li {
+    list-style: none;
+    line-height: 40px;
+    font-size: 12px;
+
+}
+
+.dec {
+    text-decoration: none;
+    color: black;
+}
+
+h4 {
+    color: rgb(197, 31, 197);
+}
+
+ul i {
+    font-size: 15px;
+    color: rgb(197, 31, 197);
+}
+.hh3{
+    margin: 10px;
+    margin-left: 0px;
+}
+
+
+
+.sendbtn{
+    z-index: 100;
+    border: #7971ea 1px solid;
+    background-color: #7971ea;
+    font-weight: bold;
+    position: absolute;
+    border-radius: 10px;
+    padding: 12px;
+    right: 152px;
+    color: white;
+    align-items: center;
+    margin-top: 1px;
+    letter-spacing: .2em;
+}
+.Subscribe  .sendbtn:hover{
+    background-color: rgba(0, 0, 255, 0.62);
+    transform: scale(1.1);
+    transition: all .3s ease;
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.373),0px 0px 1px 0px rgba(0, 0, 0, 0.373);
+}
+
+.Subscribe input{
+    position: relative;
+    border: #00000060 1px solid;
+    background-color: rgb(255, 255, 255);
+    width: 200px;
+    height: 40px;
+    border-radius: 10px;
+    padding: 23px;
+    padding-left: 9px;
+    font-size: 15px;
+}
+
+
+
+
+.copy {
+    font-size: 12px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: rgb(34, 34, 34);
+    margin: 28px;
+}
+
+.p {
+    color: rgb(197, 31, 197);
+    padding-left: 10px;
+}
+
+footer img {
+    border-radius: 6px;
+}
